@@ -70,7 +70,8 @@ def time_post():
           print(request.form['text'].split())
           
           for item in request.form['text'].split():
-		answer = (datetime.datetime.now(pytz.timezone('Australia/Sydney')).strftime('Time = ' + '%H:%M:%S' + ' GMT ' + ' Year = ' + '%d-%m-%Y'))
+		pass
+		#answer = (datetime.datetime.now(pytz.timezone('Australia/Sydney')).strftime('Time = ' + '%H:%M:%S' + ' GMT ' + ' Year = ' + '%d-%m-%Y'))
 		#if item='India':
 		#else:
 		#	answer = (datetime.datetime.now(pytz.timezone('Australia/Sydney')).strftime('Time = ' + '%H:%M:%S' + ' GMT ' + ' Year = ' + '%d-%m-%Y'))
